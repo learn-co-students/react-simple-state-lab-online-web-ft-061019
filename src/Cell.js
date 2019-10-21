@@ -10,8 +10,9 @@ export default class Cell extends Component {
     }
 
     onClick = () => {
+        let hexUpdate = '#333'
         this.setState({
-            color: '#333'
+            color: hexUpdate
         })
     }
 
